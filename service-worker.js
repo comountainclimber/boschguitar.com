@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/boschguitar.com/precache-manifest.085069235313ce9e5d0580f1611e3289.js"
+  "/boschguitar.com/precache-manifest.828fa1c936813fcef2452e0d159b7c6e.js"
 );
 
 self.addEventListener('message', (event) => {
