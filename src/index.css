@@ -1,3 +1,7 @@
+* {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -11,3 +15,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+html {
+  background: var(--dark-grey);
+}
+
+:root {
+  --dark-grey: #232931;
+  --medium-grey: #393e46;
+  --light-grey: #eeeeee;
+  --green: #4ecca3;
+}
+
+*:focus {
+  outline: none;
+}
+
+h1 {
+  font-weight: 600px;
+  font-size: 24px;
+  color: #eeeeee;
+}
+
+p {
+  font-size: 17px;
+  color: #eeeeee;
+  font-weight: 400;
+}
+
+/* input,
+select:focus,
+textarea {
+  font-size: 16px;
+} */
