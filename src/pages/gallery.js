@@ -28,6 +28,7 @@ import twentyone from "../images/gallery/21.jpg"
 import twentytwo from "../images/gallery/22.jpg"
 import twentythree from "../images/gallery/23.jpg"
 import twentyfour from "../images/gallery/24.jpg"
+import twentyfive from "../images/gallery/25.png"
 
 const IMAGES = [
   {
@@ -156,6 +157,12 @@ const IMAGES = [
     src: twentyone,
     thumbnail: twentyone,
     thumbnailWidth: 257,
+    thumbnailHeight: 180,
+  },
+  {
+    src: twentyfive,
+    thumbnail: twentyfive,
+    thumbnailWidth: 110,
     thumbnailHeight: 180,
   },
 ]
