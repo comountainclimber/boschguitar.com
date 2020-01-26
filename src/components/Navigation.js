@@ -1,66 +1,30 @@
-import React from "react";
-import { NavLink, Link } from "react-router-dom";
-// import { slide as Menu } from 'react-burger-menu'
-// import noScroll from 'no-scroll'
+import React from "react"
+import { Link } from "gatsby"
 
-import logo from "../images/logo.png";
-// import cozLogo from '../../images/coz-logo.svg'
-// import cozLogoMobile from '../../images/coz-logo-mobile.png'
-// import menuIcon from '../../images/menu.svg'
-// import Search from '../search/Search'
-
-// import "./Navigation.scss";
-
-// const activeStyle = {
-//   fontWeight: 'bold',
-//   color: 'var(--green)',
-// }
-
-// export const PreviewLogo = () => (
-//   <React.Fragment>
-//     <div id="desktop-coz-logo" className="logo-sub-text" to="/">
-//       <h3> Neo3 Preview Explorer</h3>
-//       <p>
-//         Brought to you by: <img alt="coz-logo" src={cozLogo}></img>
-//       </p>
-//     </div>
-//     <div id="mobile-coz-logo" to="/">
-//       <img alt="coz-logo" src={cozLogoMobile}></img>
-//     </div>
-//   </React.Fragment>
-// )
+import logo from "../images/logo.png"
 
 const active = {
   fontWeight: "600",
-  color: "var(--green)"
-};
+  color: "var(--green)",
+}
 
 export const NavigationLinks = ({ isMobile = false, closeMenu }) => (
   <div className="inner-links-container">
-    <NavLink to="/gallery" activeStyle={active}>
+    <Link to="/gallery" activeStyle={active}>
       GALLERY
-    </NavLink>
+    </Link>
 
-    <NavLink to="/contact" activeStyle={active}>
+    <Link to="/contact" activeStyle={active}>
       CONTACT
-    </NavLink>
+    </Link>
 
-    <NavLink to="/about" activeStyle={active}>
+    <Link to="/about" activeStyle={active}>
       ABOUT
-    </NavLink>
+    </Link>
   </div>
-);
+)
 
 const Navigation = props => {
-  // Prevent the background from scrolling if mobile nav is open
-  // React.useEffect(() => {
-  //   if (mobileMenuIsOpen) {
-  //     noScroll.on();
-  //   } else {
-  //     noScroll.off();
-  //   }
-  // }, [mobileMenuIsOpen]);
-
   return (
     <React.Fragment>
       <nav id="navigation">
@@ -73,7 +37,7 @@ const Navigation = props => {
       </nav>
       <div id="nav-bottom-border" />
     </React.Fragment>
-  );
-};
+  )
+}
 
-export default Navigation;
+export default Navigation

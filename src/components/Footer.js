@@ -1,13 +1,13 @@
-import React from "react";
+import React from "react"
 
-import facebookIcon from "../images/facebook-social.svg";
-import youtubeIcon from "../images/youtube-social.svg";
+import facebookIcon from "../images/facebook-social.svg"
+import youtubeIcon from "../images/youtube-social.svg"
 
 export default () => {
   return (
     <footer className="footer">
       <div className="footer-flex-container">
-        <div id="left-footer-content">© 2019 boschguitar.com</div>
+        <div id="left-footer-content">© 2020 boschguitar.com</div>
 
         <div id="right-footer-content">
           <a href="mailto:mark@boschguitar.com">
@@ -16,7 +16,7 @@ export default () => {
 
           <div id="footer-social-icons">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/boschguitar"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -34,5 +34,5 @@ export default () => {
         </div>
       </div>
     </footer>
-  );
-};
+  )
+}
