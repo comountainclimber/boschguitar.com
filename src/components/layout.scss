@@ -3,6 +3,11 @@
   margin: auto;
 }
 
+#not-found-container {
+  min-height: 400px;
+  padding: 0 48px;
+}
+
 .footer {
   flex-shrink: 0;
   border-top: thin solid #878a8e;
