@@ -21,7 +21,7 @@ const About = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          Ian hunter
+          Ian Hunter
         </a>
         , Mark Bosch’s resume reads like a who’s who of the rock and roll world.
         {/* <h3> MARK BOSCH</h3> dolor sit amet, consectetur adipiscing elit. Nunc
@@ -49,7 +49,7 @@ const About = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          Mott the hoople
+          Mott the Hoople
         </a>
         , Louise Goffin, Nena, Benny Mardones, Elliot Easton, Carole King and a
         host of other top-notch talent.

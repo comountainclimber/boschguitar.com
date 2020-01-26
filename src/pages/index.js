@@ -56,7 +56,7 @@ function LandingPage() {
             </a>
           </div>
           <div id="call-to-action-link" onClick={() => navigate("/contact")}>
-            Reach out now for studio work or lessons <Arrow />
+            Reach out to Mark now for studio work or lessons <Arrow />
           </div>
         </div>
       </div>
