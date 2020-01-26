@@ -31,7 +31,10 @@ import Arrow from "-!svg-react-loader!../images/arrow_right.svg"
 function LandingPage() {
   return (
     <Layout>
-      <SEO title="Mark Bosch - lead guitarist for Garland Jeffreys and Ian Hunter" />
+      <SEO
+        title="Mark Bosch - Lead guitarist for Garland Jeffreys and Ian Hunter."
+        description="Official website of Mark Bosch, world renown guitar player and studio musician. | boschguitar.com"
+      />
       <div id="LandingPageContainer">
         <div className="LandingPage">
           <div className="jumbo-bosch" />
