@@ -3897,6 +3897,13 @@ dir-glob@^3.0.1:
   dependencies:
     path-type "^4.0.0"
 
+disconnect@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/disconnect/-/disconnect-1.2.1.tgz#fe75538f64d38e821a46b01bfdee5e9c23c4bace"
+  integrity sha1-/nVTj2TTjoIaRrAb/e5enCPEus4=
+  dependencies:
+    oauth-1.0a "2.x.x"
+
 dns-equal@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/dns-equal/-/dns-equal-1.0.0.tgz#b39e7f1da6eb0a75ba9c17324b34753c47e0654d"
@@ -8397,6 +8404,11 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
+
+oauth-1.0a@2.x.x:
+  version "2.2.6"
+  resolved "https://registry.yarnpkg.com/oauth-1.0a/-/oauth-1.0a-2.2.6.tgz#eadbccdb3bceea412d24586e6f39b2b412f0e491"
+  integrity sha512-6bkxv3N4Gu5lty4viIcIAnq5GbxECviMBeKR3WX/q87SPQ8E8aursPZUtsXDnxCs787af09WPRBLqYrf/lwoYQ==
 
 oauth-sign@~0.9.0:
   version "0.9.0"
