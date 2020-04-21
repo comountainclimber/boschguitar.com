@@ -339,6 +339,16 @@
   display: flex;
   flex-direction: column;
   padding: 24px;
+
+  .youtube-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .youtube-wrapper {
+    margin: 24px 0;
+  }
 }
 
 @media only screen and (max-width: 850px) {

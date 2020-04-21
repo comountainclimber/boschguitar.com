@@ -217,27 +217,18 @@ const Gallery = () => {
       <div className="Gallery">
         <ReactGridGallery enableImageSelection={false} images={IMAGES} />
 
-        <div
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            margin: "24px 0",
-            justifyContent: "space-between",
-          }}
-        >
-          <YouTube videoId="xX-zGbBcfVI" />
-          <YouTube videoId="d-Ur3wi97tk" />
+        <div className="youtube-row" style={{ marginTop: "24px" }}>
+          <div className="youtube-wrapper">
+            <YouTube videoId="xX-zGbBcfVI" />
+          </div>
+          <div className="youtube-wrapper">
+            <YouTube videoId="d-Ur3wi97tk" />
+          </div>
         </div>
-
-        <div
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            margin: "24px 0",
-            justifyContent: "space-between",
-          }}
-        >
-          <YouTube videoId="Amg-IKJ7wis" />
+        <div className="youtube-row">
+          <div className="youtube-wrapper">
+            <YouTube videoId="Amg-IKJ7wis" />
+          </div>
         </div>
       </div>
     </Layout>
