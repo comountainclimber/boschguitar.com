@@ -4,7 +4,7 @@ import contact from "../images/contact.png";
 
 const config = {
   script:
-    "https://script.google.com/macros/s/AKfycbyd2BubTErT13-DQKvwARfO1SZNagFKwq33Pxrl6aIkq_djAbOE/exec",
+    "https://script.google.com/macros/s/AKfycbwHgYsnWVvght7aam3v0nVaS6iryiy6APft1JSA5w/exec",
   sheet: "responses"
   // email: '',
 };
