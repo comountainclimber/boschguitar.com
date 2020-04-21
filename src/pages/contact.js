@@ -6,7 +6,7 @@ import contact from "../images/contact.png"
 
 const config = {
   script:
-    "https://script.google.com/macros/s/AKfycbyd2BubTErT13-DQKvwARfO1SZNagFKwq33Pxrl6aIkq_djAbOE/exec",
+    "https://script.google.com/macros/s/AKfycbwT3nWYek5iDGGU5hLrzzcriAyYENTYv11qSusp8raUQn2gr6Bf/exec",
   sheet: "responses",
   // email: '',
 }
