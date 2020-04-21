@@ -4,6 +4,7 @@ import disconnect from "disconnect"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
 import twentyOne from "../images/gallery/21.jpg"
+import eighteen from "../images/gallery/18.jpg"
 
 var Discogs = disconnect.Client
 var db = new Discogs().database()
@@ -20,11 +21,11 @@ const About = () => (
   <Layout>
     <SEO title="Mark Bosch - About" />
     <div className="About">
-      <img id="mobile-about-image" src={twentyOne} alt="bosch-and-ian-hunter" />
+      <img id="mobile-about-image" src={eighteen} alt="bosch-and-ian-hunter" />
       <p>
         <img
           id="desktop-about-image"
-          src={twentyOne}
+          src={eighteen}
           alt="bosch-and-ian-hunter"
         />
         As the longtime lead guitarist for Garland Jeffreys and{" "}
