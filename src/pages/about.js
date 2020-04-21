@@ -1,21 +1,9 @@
 import React from "react"
-import disconnect from "disconnect"
 
 import SEO from "../components/seo"
 import Layout from "../components/layout"
 import twentyOne from "../images/gallery/21.jpg"
 import eighteen from "../images/gallery/18.jpg"
-
-var Discogs = disconnect.Client
-var db = new Discogs().database()
-
-db.getArtistReleases(1704336).then(function(artist) {
-  console.log(artist)
-})
-
-db.getRelease(3964618).then(function(release) {
-  console.log({ release })
-})
 
 const About = () => (
   <Layout>
