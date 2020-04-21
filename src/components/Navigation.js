@@ -13,7 +13,9 @@ export const NavigationLinks = ({ isMobile = false, closeMenu }) => (
     <Link to="/gallery" activeStyle={active}>
       GALLERY
     </Link>
-
+    <Link to="/music" activeStyle={active}>
+      MUSIC
+    </Link>
     <Link to="/contact" activeStyle={active}>
       CONTACT
     </Link>

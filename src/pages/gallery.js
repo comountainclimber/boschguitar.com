@@ -218,17 +218,17 @@ const Gallery = () => {
         <ReactGridGallery enableImageSelection={false} images={IMAGES} />
 
         <div className="youtube-row" style={{ marginTop: "24px" }}>
-          <div className="youtube-wrapper">
+          {/* <div className="youtube-wrapper">
             <YouTube videoId="xX-zGbBcfVI" />
-          </div>
+          </div> */}
           <div className="youtube-wrapper">
             <YouTube videoId="d-Ur3wi97tk" />
           </div>
         </div>
         <div className="youtube-row">
-          <div className="youtube-wrapper">
+          {/* <div className="youtube-wrapper">
             <YouTube videoId="Amg-IKJ7wis" />
-          </div>
+          </div> */}
         </div>
       </div>
     </Layout>

@@ -18,6 +18,8 @@ code {
 
 html {
   background: var(--dark-grey);
+  max-width: 1400px;
+  margin: auto;
 }
 
 :root {

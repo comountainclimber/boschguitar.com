@@ -201,6 +201,12 @@
   }
 }
 
+#created-by-has {
+  color: var(--light-grey);
+  opacity: 0.2;
+  font-size: 12px;
+}
+
 // .router-content {
 //   flex: 1;
 //   height: 100%;
@@ -222,7 +228,7 @@
     max-width: 350px;
     border: solid 12px var(--medium-grey);
     border-radius: 3px;
-    margin: 0 24px 48px 0;
+    margin: 0 48px 24px 0;
   }
 
   h3 {
@@ -340,6 +346,10 @@
   flex-direction: column;
   padding: 24px;
 
+  iframe {
+    max-width: 100wv;
+  }
+
   .youtube-row {
     display: flex;
     flex-wrap: wrap;
@@ -348,6 +358,50 @@
 
   .youtube-wrapper {
     margin: 24px 0;
+  }
+}
+
+.Music {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .discography-table {
+    max-width: 800px;
+    padding: 24px 0;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+
+    img {
+      max-width: 100px;
+    }
+
+    a {
+      margin-left: 2px;
+      color: var(--green);
+    }
+
+    span {
+      color: var(--light-grey);
+      border-top-width: 0.5px;
+      border-top-style: solid;
+      border-top-color: #eeeeee38;
+      padding: 18px 12px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    span:first-child {
+      border-top: none;
+    }
+    span:nth-child(2) {
+      border-top: none;
+    }
+    span:nth-child(3) {
+      border-top: none;
+    }
   }
 }
 
@@ -368,7 +422,7 @@
   }
 }
 
-@media only screen and (max-width: 775px) {
+@media only screen and (max-width: 990px) {
   #navigation {
     height: 110px;
   }
@@ -423,6 +477,24 @@
 }
 
 @media only screen and (max-width: 500px) {
+  .Music {
+    .discography-table {
+      padding: 12px 0;
+    }
+  }
+
+  #navigation #desktop-nav-links {
+    padding: 0;
+  }
+
+  #navigation .inner-links-container a:first-child {
+    margin: 0;
+  }
+
+  #navigation .inner-links-container a:last-child {
+    margin: 0;
+  }
+
   #navigation {
     height: 90px;
     img {
@@ -430,10 +502,15 @@
     }
 
     .inner-links-container {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
       padding-top: 6px;
       a {
-        font-size: 18px;
-        width: 75px;
+        font-size: 16px;
+        // min-width: 50px;
+
+        margin: 0;
       }
     }
   }
