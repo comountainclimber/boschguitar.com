@@ -6,7 +6,6 @@ import releaseData from "../releases.json"
 
 const Gallery = () => {
   const { releases } = releaseData
-  console.log({ releases })
   return (
     <Layout>
       <SEO title="Mark Bosch - Discography" />
