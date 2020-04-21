@@ -1,5 +1,6 @@
 import React from "react"
 import ReactGridGallery from "react-grid-gallery"
+import YouTube from "react-youtube"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -29,6 +30,12 @@ import twentytwo from "../images/gallery/22.jpg"
 import twentythree from "../images/gallery/23.jpg"
 import twentyfour from "../images/gallery/24.jpg"
 import twentyfive from "../images/gallery/25.png"
+import twentysix from "../images/gallery/26.jpeg"
+import twentyseven from "../images/gallery/27.jpeg"
+import twentyeight from "../images/gallery/28.jpeg"
+import twentynine from "../images/gallery/29.jpeg"
+import thirty from "../images/gallery/30.jpeg"
+import thirtyone from "../images/gallery/31.jpeg"
 
 const IMAGES = [
   {
@@ -75,18 +82,18 @@ const IMAGES = [
     thumbnailWidth: 240,
     thumbnailHeight: 180,
   },
-  {
-    src: eight,
-    thumbnail: eight,
-    thumbnailWidth: 213,
-    thumbnailHeight: 180,
-  },
-  {
-    src: nine,
-    thumbnail: nine,
-    thumbnailWidth: 240,
-    thumbnailHeight: 180,
-  },
+  // {
+  //   src: eight,
+  //   thumbnail: eight,
+  //   thumbnailWidth: 213,
+  //   thumbnailHeight: 180,
+  // },
+  // {
+  //   src: nine,
+  //   thumbnail: nine,
+  //   thumbnailWidth: 240,
+  //   thumbnailHeight: 180,
+  // },
   {
     src: ten,
     thumbnail: ten,
@@ -117,12 +124,12 @@ const IMAGES = [
     thumbnailWidth: 126,
     thumbnailHeight: 180,
   },
-  {
-    src: fifteen,
-    thumbnail: fifteen,
-    thumbnailWidth: 220,
-    thumbnailHeight: 180,
-  },
+  // {
+  //   src: fifteen,
+  //   thumbnail: fifteen,
+  //   thumbnailWidth: 220,
+  //   thumbnailHeight: 180,
+  // },
   {
     src: sixteen,
     thumbnail: sixteen,
@@ -141,12 +148,12 @@ const IMAGES = [
     thumbnailWidth: 120,
     thumbnailHeight: 180,
   },
-  {
-    src: nineteen,
-    thumbnail: nineteen,
-    thumbnailWidth: 167,
-    thumbnailHeight: 180,
-  },
+  // {
+  //   src: nineteen,
+  //   thumbnail: nineteen,
+  //   thumbnailWidth: 167,
+  //   thumbnailHeight: 180,
+  // },
   {
     src: twenty,
     thumbnail: twenty,
@@ -165,6 +172,42 @@ const IMAGES = [
     thumbnailWidth: 110,
     thumbnailHeight: 180,
   },
+  {
+    src: twentysix,
+    thumbnail: twentysix,
+    thumbnailWidth: 110,
+    thumbnailHeight: 180,
+  },
+  {
+    src: twentyseven,
+    thumbnail: twentyseven,
+    thumbnailWidth: 160,
+    thumbnailHeight: 180,
+  },
+  {
+    src: twentyeight,
+    thumbnail: twentyeight,
+    thumbnailWidth: 245,
+    thumbnailHeight: 180,
+  },
+  {
+    src: twentynine,
+    thumbnail: twentynine,
+    thumbnailWidth: 200,
+    thumbnailHeight: 180,
+  },
+  {
+    src: thirty,
+    thumbnail: thirty,
+    thumbnailWidth: 120,
+    thumbnailHeight: 180,
+  },
+  {
+    src: thirtyone,
+    thumbnail: thirtyone,
+    thumbnailWidth: 220,
+    thumbnailHeight: 180,
+  },
 ]
 
 const Gallery = () => {
@@ -173,6 +216,29 @@ const Gallery = () => {
       <SEO title="Mark Bosch - Gallery" />
       <div className="Gallery">
         <ReactGridGallery enableImageSelection={false} images={IMAGES} />
+
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            margin: "24px 0",
+            justifyContent: "space-between",
+          }}
+        >
+          <YouTube videoId="xX-zGbBcfVI" />
+          <YouTube videoId="d-Ur3wi97tk" />
+        </div>
+
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            margin: "24px 0",
+            justifyContent: "space-between",
+          }}
+        >
+          <YouTube videoId="Amg-IKJ7wis" />
+        </div>
       </div>
     </Layout>
   )
