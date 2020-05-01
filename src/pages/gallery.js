@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 import one from "../images/gallery/1.jpg"
 import two from "../images/gallery/2.jpg"
-import three from "../images/gallery/3.jpg"
+import three from "../images/gallery/3.png"
 import four from "../images/gallery/4.jpg"
 import five from "../images/gallery/5.jpg"
 import six from "../images/gallery/6.jpg"
@@ -24,7 +24,7 @@ import sixteen from "../images/gallery/16.jpg"
 import seventeen from "../images/gallery/17.jpg"
 import eighteen from "../images/gallery/18.jpg"
 import nineteen from "../images/gallery/19.jpg"
-import twenty from "../images/gallery/20.jpg"
+import twenty from "../images/gallery/20.png"
 import twentyone from "../images/gallery/21.jpg"
 import twentytwo from "../images/gallery/22.jpg"
 import twentythree from "../images/gallery/23.jpg"
@@ -55,7 +55,7 @@ const IMAGES = [
   {
     src: three,
     thumbnail: three,
-    thumbnailWidth: 135,
+    thumbnailWidth: 150,
     thumbnailHeight: 180,
   },
   {
@@ -157,7 +157,7 @@ const IMAGES = [
   {
     src: twenty,
     thumbnail: twenty,
-    thumbnailWidth: 100,
+    thumbnailWidth: 155,
     thumbnailHeight: 180,
   },
   {

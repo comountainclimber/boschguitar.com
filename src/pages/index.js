@@ -26,7 +26,7 @@ import { navigate } from "gatsby"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
 import logo from "../images/jumbo.svg"
-import Arrow from "-!svg-react-loader!../images/arrow_right.svg"
+import Arrow from "-!svg-react-loader!../images/chevron-right.svg"
 
 function LandingPage() {
   return (
@@ -43,7 +43,7 @@ function LandingPage() {
         <div id="vg-mag-quote">
           <p>
             "As the longtime lead guitarist for Garland Jeffreys and Ian Hunter,
-            Mark Bosch’s resumé reads like a who’s who of the rock and roll
+            Mark Bosch’s resume reads like a who's who of the rock and roll
             world."
           </p>
           <div>
@@ -56,7 +56,7 @@ function LandingPage() {
             </a>
           </div>
           <div id="call-to-action-link" onClick={() => navigate("/contact")}>
-            Reach out to Mark now for studio work or lessons <Arrow />
+            Reach out to Mark for studio work or lessons <Arrow />
           </div>
         </div>
       </div>

@@ -90,10 +90,10 @@ export default class Contact extends Component {
         <SEO title="Mark Bosch - Contact" />
         <div className="contact-container">
           <div className="contact-information-container">
-            <h1> Session and studio work</h1>
+            <h1> Studio work </h1>
             <br></br>
             <p>
-              Mark is available for studio work as well as live performances.
+              Mark is available for session and studio work as well as live performances.
             </p>
             <img src={contact} alt="bosch-jammin" />
 
