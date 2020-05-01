@@ -9,6 +9,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#___gatsby,
+#gatsby-focus-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 code {
@@ -40,7 +50,7 @@ h1 {
 }
 
 p {
-  font-size: 17px;
+  font-size: 18px;
   color: #eeeeee;
   font-weight: 400;
 }
