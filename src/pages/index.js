@@ -32,7 +32,7 @@ function LandingPage() {
   return (
     <Layout>
       <SEO
-        title="Mark Bosch - Lead guitarist for Ian Hunter and Garland Jeffreys."
+        title="Mark Bosch - Lead guitarist for Ian Hunter and Garland Jeffreys"
         description="Official website of Mark Bosch, world renown guitar player and studio musician."
       />
       <div id="LandingPageContainer">
