@@ -1,6 +1,7 @@
 import React from "react"
 import ReactGridGallery from "react-grid-gallery"
 import YouTube from "react-youtube"
+import ReactPlayer from "react-player"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -229,6 +230,10 @@ const Gallery = () => {
           {/* <div className="youtube-wrapper">
             <YouTube videoId="Amg-IKJ7wis" />
           </div> */}
+          <ReactPlayer
+            url="https://www.facebook.com/Tompettybirthdaybash/videos/1289918951359045/"
+            controls
+          />
         </div>
       </div>
     </Layout>
