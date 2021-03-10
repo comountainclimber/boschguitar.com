@@ -7,7 +7,7 @@ export default () => {
   return (
     <footer className="footer">
       <div className="footer-flex-container">
-        <div id="left-footer-content">© 2020 boschguitar.com</div>
+        <div id="left-footer-content">© 2021 boschguitar.com</div>
 
         <div id="right-footer-content">
           <a href="mailto:mark@boschguitar.com">
